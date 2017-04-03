@@ -1,0 +1,20 @@
+@import "ui-mixins";
+@import "ui-variables";
+
+.tree-view {
+  .entry:not(.current-working-directory) .icon::before {
+    display: none !important;
+  }
+  .entry.directory > .list-item {
+    font-weight: 600 !important;
+  }
+  .entry.directory > .list-item:hover {
+    .text(highlight);
+  }
+  .entry.file:not(.selected):not(.status-added):not(.status-modified) {
+    .text(subtle);
+  }
+  .entry.status-ignored {
+    font-style: italic;
+  }
+}

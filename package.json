@@ -1,0 +1,9 @@
+{
+  "name": "hide-tree-view-icons",
+  "version": "0.0.0",
+  "description": "Hides the folder and file icons in Atom's Tree View and Nuclide's File Tree.",
+  "main": "index.js",
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "license": "MIT",
+  "mainStyleSheet": "./hide-tree-view-icons.less"
+}
