@@ -10,5 +10,5 @@ hide-tree-view-icons
 $ apm install hide-tree-view-icons
 ```
 
-![screenshot](./screenshot.png)
+![screenshot](https://raw.githubusercontent.com/zertosh/hide-tree-view-icons/master/screenshot.png)
 
