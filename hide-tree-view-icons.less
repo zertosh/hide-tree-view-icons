@@ -18,3 +18,12 @@
     font-style: italic;
   }
 }
+
+.nuclide-file-tree-open-files {
+  .list-item .icon.name::before {
+    display: none !important;
+  }
+  .list-item:not(.selected):not(:hover) {
+    .text(subtle);
+  }
+}
