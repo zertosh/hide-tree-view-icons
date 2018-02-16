@@ -1,6 +1,6 @@
 {
   "name": "hide-tree-view-icons",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Hides the folder and file icons in Atom's Tree View and Nuclide's File Tree.",
   "keywords": [
     "file-tree",
